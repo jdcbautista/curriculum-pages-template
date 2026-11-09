@@ -2,8 +2,8 @@
 
 A reusable GitHub template for curriculum websites written only in Markdown. GitHub Pages serves the files directly, so there is **no build step, no dependencies and no CI** to maintain.
 
-- Live template: https://jdcbautista.github.io/curriculum-pages-template/
-- Example built from it: https://jdcbautista.github.io/spanish-a1-curriculum/ (Spanish for beginners)
+- Live template: https://juliusbautista.com/curriculum-pages-template/
+- Example built from it: https://juliusbautista.com/spanish-a1-curriculum/ (Spanish for beginners)
 - Owner: the Curriculum Pipeline (JC Labs). The pipeline lists every site made from this template in its `repositories.json`.
 
 ## Files
@@ -31,7 +31,7 @@ gh repo create spanish-a1-curriculum --public --clone --template jdcbautista/cur
 cd spanish-a1-curriculum && gh api -X POST "repos/{owner}/{repo}/pages" -f "source[branch]=main" -f "source[path]=/"
 ```
 
-The site appears at `https://<your-user>.github.io/<repo-name>/` about a minute later.
+The site appears at `https://<your-user>.github.io/<repo-name>/` about a minute later, or under your custom domain if your account has one (Settings → Pages shows the exact URL).
 
 Then make it yours:
 
