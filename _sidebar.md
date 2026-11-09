@@ -1,0 +1,7 @@
+- [Home](home.md)
+- **Lessons**
+  - [1. Getting started](lessons/01-getting-started.md)
+  - [2. Writing a lesson](lessons/02-writing-a-lesson.md)
+- **About**
+  - [Build, run and maintain](README.md)
+  - [Changelog](CHANGELOG.md)
